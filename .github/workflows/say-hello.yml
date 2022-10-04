@@ -7,5 +7,5 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # tag=v3.1.0
       - uses: renovate-ip-allow-list/hello-action@4cd71e56aca5108cd073eba634deb49875ac3da7 # tag=v3.0.0
